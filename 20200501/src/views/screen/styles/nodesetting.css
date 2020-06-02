@@ -1,0 +1,167 @@
+.theme-a .nodesetting .el-dialog__body .nodeshow .inner {
+  border: 1px solid #0a014e;
+  background-color: #bfbfbf;
+}
+.theme-a .nodesetting .el-dialog__body .nodeshow .inner.bind {
+  opacity: 0.7;
+  background-color: #aedfda;
+}
+.theme-a .nodesetting .el-dialog__body .nodelist .node-item {
+  background-color: #aedfda;
+}
+.theme-a .nodesetting .el-dialog__body .nodelist .el-table__header-wrapper thead tr th {
+  background-color: #4a8170;
+}
+.theme-a .nodesetting .el-dialog__body .nodelist .el-table__header-wrapper thead tr th .cell {
+  background-color: #aedfda;
+}
+.theme-b .nodesetting .el-dialog__body .nodeshow .inner {
+  border: 1px solid #0a014e;
+  background-color: #bfbfbf;
+}
+.theme-b .nodesetting .el-dialog__body .nodeshow .inner.bind {
+  opacity: 0.7;
+  background-color: #aedfda;
+}
+.theme-b .nodesetting .el-dialog__body .nodelist .node-item {
+  background-color: #aedfda;
+}
+.theme-b .nodesetting .el-dialog__body .nodelist .el-table__header-wrapper thead tr th {
+  background-color: #4a8170;
+}
+.theme-b .nodesetting .el-dialog__body .nodelist .el-table__header-wrapper thead tr th .cell {
+  background-color: #aedfda;
+}
+.theme-c .nodesetting .el-dialog__body .nodeshow .inner {
+  border: 1px solid #a7952f;
+  background-color: #bfbfbf;
+}
+.theme-c .nodesetting .el-dialog__body .nodeshow .inner.bind {
+  opacity: 0.7;
+  background-color: #e7df8f;
+}
+.theme-c .nodesetting .el-dialog__body .nodelist .node-item {
+  background-color: #aedfda;
+}
+.theme-c .nodesetting .el-dialog__body .nodelist .el-table__header-wrapper thead tr th {
+  background-color: #4a8170;
+}
+.theme-c .nodesetting .el-dialog__body .nodelist .el-table__header-wrapper thead tr th .cell {
+  background-color: #aedfda;
+}
+.theme-d .nodesetting .el-dialog__body .nodeshow .inner {
+  border: 1px solid #61a7b3;
+  background-color: #bfbfbf;
+}
+.theme-d .nodesetting .el-dialog__body .nodeshow .inner.bind {
+  background-color: #61a7b3;
+  color: #dbeaed;
+}
+.theme-d .nodesetting .el-dialog__body .nodelist .node-item {
+  background-color: #aedfda;
+}
+.theme-d .nodesetting .el-dialog__body .nodelist .el-table__header-wrapper thead tr th {
+  background-color: #292c34;
+}
+.theme-d .nodesetting .el-dialog__body .nodelist .el-table__header-wrapper thead tr th .cell {
+  background-color: #292c34;
+}
+.nodesetting .el-dialog--small {
+  width: 760px;
+}
+.nodesetting .el-dialog__header {
+  padding: 10px 20px;
+}
+.nodesetting .el-dialog__body {
+  padding: 10px 30px;
+}
+.nodesetting .el-dialog__body .node-body {
+  display: flex;
+  flex-direction: row;
+}
+.nodesetting .el-dialog__body .node-body .nodeshow {
+  margin-right: 30px;
+  height: 500px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.nodesetting .el-dialog__body .node-body .nodeshow .inner {
+  border: 1px solid #3c4758;
+  background-color: #bfbfbf;
+  position: relative;
+}
+.nodesetting .el-dialog__body .node-body .nodeshow .inner.bind {
+  background-color: #94baff;
+}
+.nodesetting .el-dialog__body .node-body .nodeshow .inner span {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  color: #000;
+}
+.nodesetting .el-dialog__body .node-body .nodeshow .inner i {
+  cursor: default;
+  font-size: 16px;
+}
+.nodesetting .el-dialog__body .node-body .nodeshow .inner i:hover {
+  cursor: pointer;
+}
+.nodesetting .el-dialog__body .node-body .nodeshow .inner p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -100%);
+  font-style: italic;
+}
+.nodesetting .el-dialog__body .node-body .nodeshow .inner .fa-minus-circle {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #4e91e3;
+  font-size: 16px;
+}
+.nodesetting .el-dialog__body .node-body .nodeshow .inner .fa-plus-circle {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+.nodesetting .el-dialog__body .node-body .nodeshow .inner .fa-plane {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #e7e7e7;
+  font-size: 16px;
+}
+.nodesetting .el-dialog__body .node-body .nodelist {
+  border: 1px solid #c9c9c9 ;
+  background-color: #e7e7e7;
+  height: 500px;
+  width: 160px;
+  margin-bottom: 10px;
+  overflow-y: auto;
+}
+.nodesetting .el-dialog__body .node-body .nodelist .node-item {
+  background-color: #343d4c;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  border-bottom: 1px solid #c9c9c9;
+  text-align: center;
+}
+.nodesetting .el-dialog__body .node-body .nodelist .el-table__header-wrapper thead tr th {
+  background-color: #343d4c;
+}
+.nodesetting .el-dialog__body .node-body .nodelist .el-table__header-wrapper thead tr th .cell {
+  background-color: #343d4c;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+.nodesetting .el-dialog__body .node-body .nodelist .el-table td {
+  border-bottom: 1px solid #c9c9c9;
+}

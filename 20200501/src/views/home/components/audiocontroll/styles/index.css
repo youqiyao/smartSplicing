@@ -1,0 +1,25 @@
+.volume-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.volume-block .volume-icon {
+  box-sizing: border-box;
+  text-align: center;
+  width: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.volume-block .volume-icon:hover {
+  color: #20a0ff;
+}
+.volume-block .volume-slider {
+  flex-grow: 1;
+}
+.volume-block .volume-value {
+  box-sizing: border-box;
+  text-align: center;
+  width: 40px;
+  color: #20a0ff;
+}

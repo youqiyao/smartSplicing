@@ -1,0 +1,195 @@
+.theme-a .container-area .container-canvas .channel {
+  opacity: 0.7;
+  background-color: #78e7d9;
+  border: 2px solid #4a8170;
+}
+.theme-a .container-area .container-canvas .channel.selected {
+  border: 2px solid #0a014e;
+}
+.theme-a .container-area .fix-btn {
+  background-color: #4a8170 !important;
+}
+.theme-b .container-area .container-canvas .channel {
+  opacity: 0.5;
+  background-color: #d0878e;
+  border: 2px solid #8c3a3d;
+}
+.theme-b .container-area .container-canvas .channel.selected {
+  border: 2px solid red;
+}
+.theme-b .container-area .fix-btn {
+  background-color: #C45358 !important;
+}
+.theme-c .container-area .container-canvas .channel {
+  opacity: 0.7;
+  background-color: #e7df8f;
+  border: 2px solid #a7952f;
+}
+.theme-c .container-area .container-canvas .channel.selected {
+  border: 2px solid #547f46;
+}
+.theme-c .container-area .fix-btn {
+  background-color: #f0cf36 !important;
+}
+.theme-d .container-area .container-canvas .channel {
+  opacity: 0.7;
+  background-color: #acd8e1;
+  border: 2px solid #5d97a0;
+}
+.theme-d .container-area .container-canvas .channel.selected {
+  border: 2px solid #363c6e;
+}
+.theme-d .container-area .fix-btn {
+  background-color: #61a7b3 !important;
+}
+.container-area {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.container-area .container-canvas {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  background-color: #aeb9cd;
+}
+.container-area .container-canvas .canvas {
+  position: relative;
+  background-color: #d7dae0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: default;
+}
+.container-area .container-canvas .preview_canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  opacity: 0.7;
+  top: 0;
+}
+.container-area .container-canvas .channel {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  opacity: 0.7;
+  background-color: #8abeff;
+  border: 2px solid #3d94ff;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.container-area .container-canvas .channel.selected {
+  border: 2px solid #c706ff;
+}
+.container-area .container-canvas .channel.opacity {
+  background-color: transparent;
+  opacity: 0.9;
+}
+.container-area .container-canvas .channel .audio-icon {
+  position: absolute;
+  font-size: 14px;
+  right: 0;
+  top: 0;
+  z-index: 9900;
+  color: #f707ab;
+}
+.container-area .container-canvas .templatewindow {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  opacity: 0.5;
+  background-color: #561F87;
+  border: 2px solid #3d94ff;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.container-area .container-canvas .templatewindow.selected {
+  border: 2px solid #c706ff;
+}
+.container-area .container-canvas .templatewindow.opacity {
+  background-color: transparent;
+  opacity: 0.7;
+}
+.container-area .container-canvas .temp-shade {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9996;
+}
+.container-area .container-canvas .temp {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0.7;
+  z-index: 1997;
+}
+.container-area .container-canvas .canvasmask {
+  position: absolute;
+  display: none;
+  background-color: #8f8f8f;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  z-index: 1998;
+}
+.container-area .container-canvas .canvasmask.isshow {
+  display: block;
+}
+.container-area .screenshade {
+  position: absolute;
+  display: none;
+  background-color: #cfcfcf;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1999;
+}
+.container-area .screenshade.isshow {
+  display: block;
+}
+.container-area .fix-btn {
+  position: fixed;
+  z-index: 2000;
+  font-size: 20px;
+  margin-left: 0px;
+  padding: 10px 10px;
+  border-radius: 4px;
+}
+.container-area .fix-btn i {
+  width: 20px;
+}
+.container-area .cover {
+  top: 180px;
+  left: 350px;
+}
+.container-area::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #7e2525;
+}
+.container-area::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+.container-area::-webkit-scrollbar-thumb {
+  height: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #bcbcbc;
+}

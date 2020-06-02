@@ -1,0 +1,54 @@
+.theme-a .rolemanage .tabletools .table-btn:hover {
+  color: #192b27;
+  opacity: 0.7;
+  background-color: #aedfda;
+}
+.theme-b .rolemanage .tabletools .table-btn:hover {
+  color: #f3d2d7;
+  opacity: 0.7;
+  background-color: #c45359;
+}
+.theme-c .rolemanage .tabletools .table-btn:hover {
+  color: #000;
+  opacity: 0.7;
+  background-color: #f0cf36;
+}
+.theme-d .rolemanage .tabletools .table-btn:hover {
+  background-color: #61a7b3;
+  color: #dbeaed;
+}
+.rolemanage {
+  background-color: #e1e1e1;
+  width: calc(100% - 120px);
+  height: calc(100% - 40px);
+}
+.rolemanage .tabletools {
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.rolemanage .tabletools .table-btn {
+  margin-left: 20px;
+  border: none;
+  font-size: 0.875rem;
+}
+.rolemanage .tabletools .table-btn .mar-rig {
+  margin-right: 8px;
+}
+.rolemanage .tabletools .table-btn:hover {
+  background-color: #bbd4f2;
+  color: #000;
+}
+.rolemanage .tableshow {
+  min-width: 680px;
+  border: 1px solid #c9c9c9 ;
+  background-color: #e7e7e7;
+}
+.rolemanage .roleform .el-dialog--small {
+  width: 362px;
+}
+.rolemanage .roleform .el-checkbox {
+  margin-left: 0px;
+  margin-right: 15px;
+}

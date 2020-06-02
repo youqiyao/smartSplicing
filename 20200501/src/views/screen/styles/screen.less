@@ -1,0 +1,117 @@
+.theme-a {
+  .screen {
+    .title {
+      background-color: #eec563;
+      color:#192b27;
+    }
+    .tabletools {
+      .table-btn {
+          &:hover {
+            color:#192b27;
+            opacity: 0.7;
+            background-color: #aedfda;
+          }
+        }
+    }
+  }
+}
+// ------------------------------bbbbbbbbbbbbbbbb-------------
+.theme-b {
+  .screen {
+    .title {
+      background-color: #773b4f;
+      color:#f3d2d7;
+    }
+    .tabletools {
+      .table-btn {
+          &:hover {
+            color:#f3d2d7;
+            opacity: 0.7;
+            background-color: #c45359;
+          }
+        }
+    }
+  }
+}
+// -----------------ccccccccccc-------
+.theme-c {
+  .screen {
+    .title {
+      background-color: #3e495d;
+      color: #e9f3fd;
+    }
+    .tabletools {
+      .table-btn {
+          &:hover {
+            color:#000;
+            opacity: 0.7;
+            background-color: #f0cf36;
+          }
+        }
+    }
+  }
+}
+// -----------dddddd---------------
+.theme-d {
+  .screen {
+    .title {
+      background-color: #ccc;
+      color: #000;
+    }
+    .tabletools {
+      .table-btn {
+          &:hover {
+            background-color: #61a7b3;
+            color: #dbeaed;
+          }
+        }
+    }
+  }
+}
+// --------------------------------------------
+.screen {
+    height: 100vh;
+  background-color:#ccc;
+  .title,.tabletools {
+    height: 40px;
+//  width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .title {
+    font-size: 1rem;
+    color: #fff;
+    font-family: '微软雅黑';
+    background-color: #343d4c;
+    span {
+      padding-left: 15px;
+    }
+  }
+  .tabletools {
+    min-width: 385px;
+    height: 50px;
+    .table-btn {
+        margin-right: -2px;
+        border: none;
+        border-radius: 4px;
+        font-size: 0.875rem;
+        &:hover {
+          background-color: #bbd4f2;
+          color: #000;
+        }
+      }
+  }
+  .tableshow {
+    min-width: 680px;
+    border:1px solid #c9c9c9 ;
+    background-color: #e7e7e7;
+  }
+  //屏组弹出框样式
+  .screenform {
+    .el-dialog.screen_modal {
+      width: 372px !important;
+    }
+  }
+}

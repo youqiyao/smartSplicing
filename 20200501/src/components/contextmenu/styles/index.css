@@ -1,0 +1,82 @@
+.theme-a .context-menu {
+  background: #4a8170;
+}
+.theme-a .context-menu ul .list-item {
+  color: #000;
+}
+.theme-a .context-menu ul .list-item:hover {
+  background-color: #0a014e;
+  color: #dfedea;
+}
+.theme-a .context-menu ul .divide {
+  border-top: 1px solid #000;
+}
+.theme-b .context-menu {
+  background-color: #c45359;
+}
+.theme-b .context-menu ul .list-item {
+  color: #000;
+}
+.theme-b .context-menu ul .list-item:hover {
+  background-color: #000;
+  color: #f3d2d7;
+}
+.theme-b .context-menu ul .divide {
+  border-top: 1px solid #000;
+}
+.theme-c .context-menu {
+  background-color: #6392d7;
+}
+.theme-c .context-menu ul .list-item {
+  color: #fff;
+}
+.theme-c .context-menu ul .list-item:hover {
+  background-color: #f0cf36;
+  color: #000;
+}
+.theme-c .context-menu ul .divide {
+  border-top: 1px solid #ccc;
+}
+.theme-d .context-menu {
+  background: #5d97a0;
+}
+.theme-d .context-menu ul .list-item {
+  color: #000;
+}
+.theme-d .context-menu ul .list-item:hover {
+  background-color: #363c6e;
+  color: #fff;
+}
+.theme-d .context-menu ul .divide {
+  border-top: 1px solid #ccc;
+}
+.context-menu {
+  background-color: #4e91e3;
+  border-radius: 4px;
+  z-index: 1990;
+}
+.context-menu ul {
+  width: auto;
+  margin: 0 0;
+  padding: 5px 0;
+  list-style: none;
+}
+.context-menu ul .list-item {
+  width: 100%;
+  cursor: default;
+  color: #fff;
+  text-align: left;
+  font-size: 14px;
+  padding: 0 10px;
+}
+.context-menu ul .list-item:hover {
+  background: #c706ff;
+  color: #000;
+}
+.context-menu ul .list-item.disabled {
+  color: #999;
+}
+.context-menu ul .divide {
+  border-top: 1px solid #fff;
+  margin: 5px;
+}

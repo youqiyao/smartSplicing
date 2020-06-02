@@ -1,0 +1,158 @@
+.theme-a {
+  .signalsource {
+    .signaltreetools {
+      .table-btn {
+        &:hover {
+          color:#192b27;
+          opacity: 0.7;
+          background-color: #aedfda;
+        }
+      }
+    }
+  }
+}
+// -----------------bbbbbbbbbbbbbbbbbbb---------------
+.theme-b {
+  .signalsource {
+    .signaltreetools {
+      .table-btn {
+        &:hover {
+          color:#f3d2d7;
+          opacity: 0.7;
+          background-color: #c45359;
+        }
+      }
+    }
+  }
+}
+// -----------------cccccccccccc---
+.theme-c {
+  .signalsource {
+    .signaltreetools {
+      .table-btn {
+        &:hover {
+          color:#000;
+          opacity: 0.7;
+          background-color: #f0cf36;
+        }
+      }
+    }
+  }
+}
+// -------dddddddddddddd------------
+.theme-d {
+  .signalsource {
+    .signaltreetools {
+      .table-btn {
+        &:hover {
+          background-color: #61a7b3;
+          color: #dbeaed;
+        }
+      }
+    }
+  }
+}
+// ------------------------------------
+.signalsource {
+  width: 100%;
+  height: 99%;
+  padding: 0px 2px;
+  background-color:#e1e1e1;
+  .maintitle {
+      height: 100px;
+    line-height:50px;
+    width: 100%;
+    background-color: #343d4c;
+    font-size: 1rem;
+    color: #fff;
+    font-family: '微软雅黑';
+    p {
+      padding-left: 10px;
+      margin: 0;
+    }
+  }
+  .signaltreetools {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f3f3f3;
+    .table-btn {
+      margin-right: 10px;
+      border: none;
+      font-size: 0.875rem;
+      // border-radius: 20px;
+      &:hover {
+        background-color: #bbd4f2;
+        color: #000;
+      }
+    }
+  }
+
+  //树形结构滚动条
+  .signaltree {
+    background-color:#f3f3f3;
+    height: e("calc(100% - 100px)");
+    border: 1px solid #ccc;
+    .el-input__inner {
+      border:none;
+    }
+
+    .el-tree{
+      height: e("calc(100% - 36px)");
+      overflow-y: auto;
+      overflow-x: hidden;
+      &::-webkit-scrollbar{
+        width: 10px;
+        height: 10px;
+        background-color: #f5f5f5;
+      }
+      &::-webkit-scrollbar-track{
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        border-radius: 10px;
+        background-color: #f5f5f5;
+      }
+      &::-webkit-scrollbar-thumb{
+        height: 20px;
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #bcbcbc;
+      }
+    }
+  }
+
+  //信号源表格滚动条
+  .signaltable {
+    border:1px solid #c9c9c9 ;
+    background-color: #e7e7e7;
+    height: e("calc(100% - 100px)");
+    .el-input__inner {
+      border:none;
+    }
+    .el-table{
+      height: e("calc(100% - 36px)");
+      .el-table__body-wrapper {
+        height: e("calc(100% - 40px)");
+        overflow-y: auto;
+        overflow-x: hidden;
+        &::-webkit-scrollbar{
+          width: 10px;
+          height: 10px;
+          background-color: #f5f5f5;
+        }
+        &::-webkit-scrollbar-track{
+          -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+          border-radius: 10px;
+          background-color: #f5f5f5;
+        }
+        &::-webkit-scrollbar-thumb{
+          height: 20px;
+          border-radius: 10px;
+          -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+          background-color: #bcbcbc;
+        }
+      }
+    }
+  }
+}

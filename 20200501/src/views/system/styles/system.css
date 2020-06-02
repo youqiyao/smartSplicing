@@ -1,0 +1,37 @@
+.theme-a .system .title {
+  background-color: #eec563;
+  color: #192b27;
+}
+.theme-b .system .title {
+  background-color: #773b4f;
+  color: #f3d2d7;
+}
+.theme-c .system .title {
+  background-color: #3e495d;
+  color: #e9f3fd;
+}
+.theme-d .system .title {
+  background-color: #dfdfdd;
+  color: #000;
+}
+.system {
+  background-color: #f3f3f3;
+  height: 100vh;
+}
+.system .title {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  font-size: 1rem;
+  color: #fff;
+  font-family: '微软雅黑';
+  background-color: #343d4c;
+}
+.system .title span {
+  padding-left: 15px;
+}
+.system .systemcontainer {
+  width: 100%;
+  height: calc(100% - 40px);
+  display: flex;
+}

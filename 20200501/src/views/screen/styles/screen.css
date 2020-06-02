@@ -1,0 +1,78 @@
+.theme-a .screen .title {
+  background-color: #eec563;
+  color: #192b27;
+}
+.theme-a .screen .tabletools .table-btn:hover {
+  color: #192b27;
+  opacity: 0.7;
+  background-color: #aedfda;
+}
+.theme-b .screen .title {
+  background-color: #773b4f;
+  color: #f3d2d7;
+}
+.theme-b .screen .tabletools .table-btn:hover {
+  color: #f3d2d7;
+  opacity: 0.7;
+  background-color: #c45359;
+}
+.theme-c .screen .title {
+  background-color: #3e495d;
+  color: #e9f3fd;
+}
+.theme-c .screen .tabletools .table-btn:hover {
+  color: #000;
+  opacity: 0.7;
+  background-color: #f0cf36;
+}
+.theme-d .screen .title {
+  background-color: #dfdfdd;
+  color: #000;
+}
+.theme-d .screen .tabletools .table-btn:hover {
+  background-color: #61a7b3;
+  color: #dbeaed;
+}
+.screen {
+  background-color: #343d4c;
+  height: 100%;
+}
+.screen .title,
+.screen .tabletools {
+  height: 40px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.screen .title {
+  font-size: 1rem;
+  color: #fff;
+  font-family: '微软雅黑';
+  background-color: #343d4c;
+}
+.screen .title span {
+  padding-left: 15px;
+}
+.screen .tabletools {
+  min-width: 385px;
+  height: 50px;
+}
+.screen .tabletools .table-btn {
+  margin-right: -2px;
+  border: none;
+  font-size: 0.875rem;
+}
+.screen .tabletools .table-btn:hover {
+  background-color: #bbd4f2;
+  color: #000;
+}
+.screen .tableshow {
+  min-width: 680px;
+  border: 1px solid #c9c9c9 ;
+  background-color: #e7e7e7;
+}
+.screen .screenform .el-dialog--small {
+  width: 372px;
+}

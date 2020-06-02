@@ -1,0 +1,58 @@
+.login {
+  display:flex;
+  width:100vw;
+  flex-wrap: wrap;
+  justify-content:center;
+  .login-bc {
+    width:100vw;
+    height:400px;
+    background-size: cover;
+    img {
+      width:100vw;
+      height:400px;
+    }
+  }
+  .box {
+    width: 100vw;
+    height: 20px;
+    background-color:#656f80;
+  }
+  .login-form {
+    margin-top:40px;
+    .ivu-form-item-label {
+      font-size: 1rem;
+      font-family: '微软雅黑';
+      color:#000;
+      &:before {
+        color: #000;
+        content: '';
+      }
+    }
+    .ivu-form-item-content {
+      border:1px solid red;
+      margin-left:60px;
+      background-color: #343d4c;
+      .ivu-input-wrapper.ivu-input-type {
+        background-color: #343d4c;
+        .ivu-input {
+          background-color: #343d4c;
+          border: 1px solid #343d4c;
+          font-size: 0.9rem;
+          font-family: '微软雅黑';
+          padding: 20px 50px 20px 20px;
+          /*color:#757575;*/
+          color:#fff;
+        }
+      }
+
+    }
+    .ivu-btn {
+      margin-left: 100px;
+      background-color:#161927 ;
+      width: 130px;
+      &.ivu-btn-large {
+        padding: 9px 32px 10px;
+      }
+    }
+  }
+}

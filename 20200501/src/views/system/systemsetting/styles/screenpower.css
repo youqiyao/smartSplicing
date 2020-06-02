@@ -1,0 +1,101 @@
+.theme-a .screenpower .screentools .table-btn:hover {
+  color: #192b27;
+  opacity: 0.7;
+  background-color: #aedfda;
+}
+.theme-b .screenpower .screentools .table-btn:hover {
+  color: #f3d2d7;
+  opacity: 0.7;
+  background-color: #c45359;
+}
+.theme-c .screenpower .screentools .table-btn:hover {
+  color: #000;
+  opacity: 0.7;
+  background-color: #f0cf36;
+}
+.theme-d .screenpower .screentools .table-btn:hover {
+  background-color: #61a7b3;
+  color: #dbeaed;
+}
+.screenpower {
+  width: 100%;
+  height: 99%;
+  padding: 0px 10px;
+  background-color: #e1e1e1;
+}
+.screenpower .maintitle {
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: #e1e1e1;
+  font-size: 1rem;
+  color: #000;
+  font-family: '微软雅黑';
+}
+.screenpower .maintitle p {
+  padding-left: 10px;
+  margin: 0px;
+}
+.screenpower .screentools {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+.screenpower .screentools .table-btn {
+  margin-right: 10px;
+  border: none;
+  font-size: 0.875rem;
+}
+.screenpower .screentools .table-btn:hover {
+  background-color: #bbd4f2;
+  color: #000;
+}
+.screenpower .screenlist {
+  height: calc(100% - 50px);
+}
+.screenpower .powerplanlist {
+  height: calc(100% - 100px);
+}
+.screenpower .screenlist,
+.screenpower .powerplanlist {
+  border: 1px solid #c9c9c9 ;
+  background-color: #e7e7e7;
+}
+.screenpower .screenlist .el-table,
+.screenpower .powerplanlist .el-table {
+  height: 100%;
+}
+.screenpower .screenlist .el-table__body-wrapper,
+.screenpower .powerplanlist .el-table__body-wrapper {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.screenpower .screenlist .el-table__body-wrapper::-webkit-scrollbar,
+.screenpower .powerplanlist .el-table__body-wrapper::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #f5f5f5;
+}
+.screenpower .screenlist .el-table__body-wrapper::-webkit-scrollbar-track,
+.screenpower .powerplanlist .el-table__body-wrapper::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+.screenpower .screenlist .el-table__body-wrapper::-webkit-scrollbar-thumb,
+.screenpower .powerplanlist .el-table__body-wrapper::-webkit-scrollbar-thumb {
+  height: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #bcbcbc;
+}
+.screenpower .powerplanform .el-dialog.el-dialog--small {
+  width: 350px;
+  top: 9%!important;
+}
+.screenpower .powerplanform .el-checkbox-group .el-checkbox:nth-child(odd) {
+  margin-left: 0px;
+}

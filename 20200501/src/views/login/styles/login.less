@@ -1,0 +1,128 @@
+.login {
+   background:url("../../../assets/img/login.jpg") no-repeat;
+   display:flex;
+   width:100vw;
+   height: 100vh;
+   flex-wrap: wrap;
+   justify-content:center;
+   align-items: center;
+   background-size: 100% 100%;
+   .login-panel {
+    height: 320px;
+    width: 918px;
+    display: flex;
+    justify-content: center;
+    .login-logo {
+      width: 446px;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      background-color: #282c35;
+      border-top-left-radius: 2px;
+      border-bottom-left-radius: 2px;
+    }
+    .login-form {
+      width: 472px;
+      height: inherit;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+      background-color: #fff;
+      .language {
+        width: 120px;
+        height: 36px;
+        border: 1px solid #c7c7c7;
+        margin-top:20px;
+        margin-right:40px;
+        float: right;
+        padding: 5px 7px 0px;
+        box-shadow: 0 2px 4px rgba(0,0,0,.12), 0 0 6px rgba(0,0,0,.12);
+        cursor: pointer;
+        .language-inner {
+          width: 104px;
+        }
+        .el-icon--right {
+          float: right;
+          padding-top:3px;
+        }
+        
+      }
+      .el-form.el-form--label-left {
+        padding:80px 40px 0px;
+      }
+      .el-form-item {
+        border:1px solid #c7c7c7;
+        padding:5px 10px;
+        margin-bottom: 30px; 
+        height: 52px;
+        position: relative;
+        &:focus-within {
+          border:1px solid #20a0ff;
+          .el-form-item__label{
+            color:#20a0ff;
+          }
+        }
+        .el-form-item__label {
+          font-size: 1rem;
+          font-family: '微软雅黑';
+          color:#000;
+          height: 52px;
+          line-height: 16px;
+          padding:11px 8px 11px 4px;
+          &:before {
+            content: '';
+          }
+        }
+        .user__error,.pwd__error {
+          display: none;
+          position: absolute;
+          top:-6px;
+          left:-91px;
+          width: 392px;
+          height: 52px;
+          font-size:1rem;
+          padding-left: 109px;
+          padding-top: 6px;
+          color:#ff4949;
+          border:1px solid #ff4949;
+          span {
+            display: inline-block;
+            background-color: #fff;
+            width: 90%;
+          }
+        }
+      }
+      .el-input__inner {
+        border:none;
+        padding: 20px 19px;
+        color: #000;
+        font-size:1rem;
+        font-style: italic;
+      }
+     //.el-input__inner
+      .login-btn {
+        .el-form-item {
+          padding:0px;
+        }
+        .el-form-item__content {
+          margin-left:0px!important;
+        }
+      }
+      .el-button--primary {
+        background-color: #20a0ff;
+        border:2px solid #20a0ff;
+        padding: 15px 180px;
+        font-size:1rem;
+        border-radius: 0px;
+      }
+    }
+  }
+}
+.language-dropdown.el-dropdown-menu {
+  margin: 8px 0px;
+  border-radius: 2px;
+  .el-dropdown-menu__item {
+    text-align: center;
+  }
+}
